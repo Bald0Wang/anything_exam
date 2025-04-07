@@ -1,0 +1,32 @@
+{
+   "question":[
+    {
+      "1": {
+        "question": "公元前6世纪开创了西方高等教育先河的是",
+        "answer": "古埃及"
+      }
+    },
+    {
+      "2": {
+        "question": "现代教育与政治关系的核心是",
+        "answer": "民主问题"
+      }
+    }
+   ],
+   "statements_analysis":[
+        {
+            "1": {
+                "statement": "第三级教育包括中学后的各种形式的成人教育。",
+                "correct": true
+            }
+        },
+        {
+            "2": {
+                "statement": "现代教育与政治关系的核心是民主问题。",
+                "correct": true
+            }
+        }
+
+   ]
+
+}

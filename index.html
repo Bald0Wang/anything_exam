@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高教学 - 考试记忆闪卡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>高教学 - 考试记忆闪卡</h1>
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span id="current-card">1</span> / <span id="total-cards">0</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="tabs">
+                <button id="questions-tab" class="tab-btn active">问答题</button>
+                <button id="statements-tab" class="tab-btn">判断题</button>
+            </div>
+            
+            <div class="card" id="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <p id="question"></p>
+                    </div>
+                    <div class="card-back">
+                        <p id="answer"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="prev-btn">上一题</button>
+                <button id="mark-btn">标记此题</button>
+                <button id="next-btn">下一题</button>
+            </div>
+            
+            <div class="stats">
+                <p>已学习: <span id="studied-count">0</span></p>
+                <p>已标记: <span id="marked-count">0</span></p>
+            </div>
+            
+            <div class="actions">
+                <button id="reset-progress-btn">重置进度</button>
+                <button id="show-marked-btn">仅显示标记题</button>
+                <button id="show-all-btn">显示所有题</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>点击卡片查看答案 | 学习愉快！</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
